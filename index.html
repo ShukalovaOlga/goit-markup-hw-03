@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <!-- Logo-WebStudio -->
             <a class="header-link link" href="">Web<span class="header-logo">Studio</span></a>
             <!-- Navigation -->
@@ -37,56 +37,59 @@
     <main>    
         <!-- Hero -->
         <section class="hero">
-            <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button class="hero-btn" type="button">Заказать услугу</button>
+            <div class="container-hero">
+                <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+                <button class="hero-btn" type="button">Заказать услугу</button>
+            </div>
         </section>    
-        <!-- Studio-competence -->
-        <div class="container">
+        <!-- Studio-competence -->        
             <section class="competence"> 
-                <h2 hidden>Компетенции студии</h2>   
-                <!-- <div class=""></div>      -->
-                <ul class="competence-list list">
-                    <li class="competence-item">
-                        <h3 class="competence-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-                        <p class="competence-item-txt">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                    <li class="competence-item">
-                        <h3 class="competence-item-title">ПУНКТУАЛЬНОСТЬ</h3>
-                        <p class="competence-item-txt">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                    <li class="competence-item">
-                        <h3 class="competence-item-title">ПЛАНИРОВАНИЕ</h3>
-                        <p class="competence-item-txt">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                    <li class="competence-item">
-                        <h3 class="competence-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                        <p class="competence-item-txt">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>
+               <div class="container container-competence"> 
+                    <h2 hidden>Компетенции студии</h2>   
+                    <ul class="competence-list list">
+                        <li class="competence-item">
+                            <h3 class="competence-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                            <p class="competence-item-txt">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </li>
+                        <li class="competence-item">
+                            <h3 class="competence-item-title">ПУНКТУАЛЬНОСТЬ</h3>
+                            <p class="competence-item-txt">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </li>
+                        <li class="competence-item">
+                            <h3 class="competence-item-title">ПЛАНИРОВАНИЕ</h3>
+                            <p class="competence-item-txt">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </li>
+                        <li class="competence-item">
+                            <h3 class="competence-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                            <p class="competence-item-txt">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
-        </div>
-        <!-- Studio-affairs -->
-        <div class="container">
-            <section class="affairs">            
+        <!-- Studio-affairs -->        
+        <section class="affairs">
+            <div class="container">
                 <h2 class="affairs-title">Чем мы занимаемся</h2>
                 <ul class="affairs-list list">
-                    <li class="affairs-item">
-                        <img class="affairs-item-photo" src="./images/studio-affairs/img-c1.png" alt="Работа на компъютере и ноутбуке" width="370" height="294" />
-                    </li>
-                    <li class="affairs-item">
-                        <img class="affairs-item-photo" src="./images/studio-affairs/img-c2.png" alt="Работа на смартфоне" width="370" height="294" />
-                    </li>
-                    <li class="affairs-item">
-                        <img class="affairs-item-photo" src="./images/studio-affairs/img-c3.png" alt="Работа на графическом планшете" width="370" height="294" />
-                    </li>
+                    <div class="container-affairs">
+                        <li class="affairs-item">
+                            <img class="affairs-item-photo" src="./images/studio-affairs/img-c1.png" alt="Работа на компъютере и ноутбуке" width="370" height="294" />
+                        </li>
+                        <li class="affairs-item">
+                            <img class="affairs-item-photo" src="./images/studio-affairs/img-c2.png" alt="Работа на смартфоне" width="370" height="294" />
+                        </li>
+                        <li class="affairs-item">
+                            <img class="affairs-item-photo" src="./images/studio-affairs/img-c3.png" alt="Работа на графическом планшете" width="370" height="294" />
+                        </li>
+                    </div>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>        
         <!-- Team-personalities -->
-        <div class="container">
-            <section class="team">            
+        <section class="team">
+            <div class="container">
                 <h2 class="team-title">Наша команда</h2>
-                <ul class="team-list list">
+                <ul class="team-list list container-team">
                     <li class="team-item">
                         <img class="team-item-photo" src="./images/team-personalities/img-p1.jpg" alt="Фото улыбающегося мужчины с бородой и в очках" width="270" height="260" />
                         <h3 class="team-item-title">Игорь Демьяненко</h3>
@@ -107,15 +110,15 @@
                         <h3 class="team-item-title">Михаил Ермаков</h3>
                         <p class="team-item-txt">UI Designer</p>
                     </li>
-                </ul>
-            </section>
-        </div>
+                </ul> 
+            </div>
+        </section>       
     </main>
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container container-footer">
             <!-- Logo-WebStudio -->
-            <a class="header-link link" href="">Web<span class="footer-logo">Studio</span></a>
+            <a class="header-link link footer-link" href="">Web<span class="footer-logo">Studio</span></a>
             <!-- Coordinates -->
             <address class="address">
                 <ul class="address-list list">

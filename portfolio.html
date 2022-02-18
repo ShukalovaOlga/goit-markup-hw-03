@@ -16,27 +16,29 @@
 </head>
 <body>    
     <header class="header">
-        <!-- Logo-WebStudio -->
-        <a class="header-link link" href="">Web<span class="header-logo">Studio</span></a>
-        <!-- Navigation -->
-        <nav class="nav">
-            <ul class="nav-list list">
-                <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
-                <li class="nav-item"><a class="nav-link link current" href="./portfolio.html" id="current">Портфолио</a></li>
-                <li class="nav-item"><a class="nav-link link" href="#contacts">Контакты</a></li>
+        <div class="container header-container">
+            <!-- Logo-WebStudio -->
+            <a class="header-link link" href="">Web<span class="header-logo">Studio</span></a>
+            <!-- Navigation -->
+            <nav class="nav">
+                <ul class="nav-list list">
+                    <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
+                    <li class="nav-item"><a class="nav-link link" href="./portfolio.html" id="current">Портфолио</a></li>
+                    <li class="nav-item"><a class="nav-link link" href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Contacts -->
+            <ul class="contacts-list list">
+                <li class="contacts-item"><a class="contacts-phone link"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="contacts-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <!-- Contacts -->
-        <ul class="contacts-list list">
-            <li class="contacts-item"><a class="contacts-phone link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="contacts-item"><a class="contacts-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
-    <main> 
-        <div class="container">
-            <!-- Filters -->
-            <section class="filters">
+    <main>         
+        <!-- Filters -->
+        <section class="filters">
+            <div class="container">
                 <h2 hidden>Фильтры</h2>
                 <ul class="filters-list list">
                     <li class="filters-item"><button class="filters-item-btn" type="button">Все</button></li>
@@ -45,9 +47,11 @@
                     <li class="filters-item"><button class="filters-item-btn" type="button">Дизайн</button></li>
                     <li class="filters-item"><button class="filters-item-btn" type="button">Маркетинг</button></li>
                 </ul>
-            </section>    
-            <!-- Portfolio -->
-            <section class="portfolio"> 
+            </div>
+        </section>    
+        <!-- Portfolio -->
+        <section class="portfolio"> 
+            <div class="container">
                 <h2 hidden>Портфолио</h2>          
                 <ul class="portfolio-list list">                
                     <li class="portfolio-item">
@@ -96,24 +100,26 @@
                         <p class="portfolio-item-txt">Приложение</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>        
     </main>
     <!-- Footer -->
     <footer class="footer">
-        <!-- Logo-WebStudio -->
-        <a class="header-link link" href="">Web<span class="footer-logo">Studio</span></a>
-        <!-- Coordinates -->
-        <address class="address">
-            <ul class="address-list list">
-                <li class="address-item"><a class="address-link link" href="https://goo.gl/maps/C4KJfvBDpvmNw4FDA"
-                        target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="address-item"><a class="address-link link phone"
-                        href="mailto:info@example.com">info@example.com</a></li>
-                <li class="address-item"><a class="address-link link phone" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container container-footer">
+            <!-- Logo-WebStudio -->
+            <a class="header-link link footer-link" href="">Web<span class="footer-logo">Studio</span></a>
+            <!-- Coordinates -->
+            <address class="address">
+                <ul class="address-list list">
+                    <li class="address-item"><a class="address-link link" href="https://goo.gl/maps/C4KJfvBDpvmNw4FDA"
+                            target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="address-item"><a class="address-link link phone"
+                            href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="address-item"><a class="address-link link phone" href="tel:+380991111111">+38 099 111 11
+                            11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
