@@ -311,7 +311,6 @@ img {
 
 .footer-link {
   display: block;
-  max-width: 145px;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 20px;
@@ -325,7 +324,6 @@ img {
 /* Address */
 .address {
   font-style: normal;
-  max-width: 231px;
 }
 
 .address-item:not(:last-child) {
